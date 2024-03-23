@@ -1,6 +1,6 @@
 # aws-wordpress-deployment
 
-Automate the setup of WordPress on AWS with this Bash script designed for Amazon Linux instances.
+Automate the setup of WordPress on AWS with Bash script.
 
 ## Overview
 
