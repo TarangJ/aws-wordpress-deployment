@@ -32,7 +32,7 @@ Step 2: AWS IAM Role
 
 Step 3: Create Stack Stage
  
- - Wait for create comlete stage.
+ - Wait for create complete stage.
 
 ![3](https://github.com/TarangJ/aws-wordpress-deployment/assets/65700353/9483ef27-6239-49a8-bd19-c7f80e40d074)
 
