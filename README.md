@@ -27,16 +27,17 @@ Step 2: AWS IAM Role
  - Check the Acknowledge Cloudformation might create IAM Resources.
  - Click create stack
 
-![2w](https://github.com/TarangJ/aws-wordpress-deployment/assets/65700353/20fd5216-a7c2-4132-8013-0ff9823300e0)
+![2w](https://github.com/TarangJ/aws-wordpress-deployment/assets/65700353/23dd2872-a78f-4594-840b-c346d3bd751b)
+
 
 Step 3: Create Stack Stage
  
  - Wait for create comlete stage.
 
 Step 4: Launch an Instance
-
-1. Go to services and click EC2.
-2. Now, create and EC2 instance
+  
+  - Go to services and click EC2.
+  - Now, create and EC2 instance
 
 ![3](https://github.com/TarangJ/aws-wordpress-deployment/assets/65700353/9483ef27-6239-49a8-bd19-c7f80e40d074)
 
