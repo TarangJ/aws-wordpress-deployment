@@ -34,18 +34,21 @@ Step 3: Create Stack Stage
  
  - Wait for create comlete stage.
 
+![3](https://github.com/TarangJ/aws-wordpress-deployment/assets/65700353/9483ef27-6239-49a8-bd19-c7f80e40d074)
+
 Step 4: Launch an Instance
   
   - Go to services and click EC2.
   - Now, create and EC2 instance
-
-![3](https://github.com/TarangJ/aws-wordpress-deployment/assets/65700353/9483ef27-6239-49a8-bd19-c7f80e40d074)
+    
+![4](https://github.com/TarangJ/aws-wordpress-deployment/assets/65700353/376b7620-8a47-4ae9-8650-0f6ff5d6793c)
 
 3. Choose your VPC and subnet,The VPC will provide the networking infrastructure for your WordPress deployment and allow you to control access to your resources.
     Subnets are required for deploying EC2 instances and other resources in different availability zones for high availability and fault tolerance.
-![4](https://github.com/TarangJ/aws-wordpress-deployment/assets/65700353/376b7620-8a47-4ae9-8650-0f6ff5d6793c)
 
-4. Download or copy wordpress_setup.sh from this repo.
+![5](https://github.com/TarangJ/aws-wordpress-deployment/assets/65700353/fd1d2d46-e3ea-41be-994f-d3faf7dfe037)
+
+5. Download or copy wordpress_setup.sh from this repo.
    Add Bash script designed for setting up a WordPress installation on an Amazon Linux server
    - Setting up Database Variables: Defines variables for the WordPress database name, username, and passwords.
    - Installing System Software: Uses dnf to install necessary software packages like Apache (httpd), PHP, MariaDB (MySQL), and some PHP extensions.
@@ -61,8 +64,6 @@ Step 4: Launch an Instance
 5. Click Launch instance.
 
    -Wait for 2/2 checks
-    
-![5](https://github.com/TarangJ/aws-wordpress-deployment/assets/65700353/fd1d2d46-e3ea-41be-994f-d3faf7dfe037)
 
 6. Now, right click launched instance and click connect,then choose EC2 instance coonect,it wiil redirect to AMI
 
